@@ -1,0 +1,231 @@
+@import "../base/fonts";
+@import "../base/variables";
+
+// .header {
+//     width: 100%;
+//     position: absolute;
+//     margin-top: 47px;
+//     top: 0;
+//     background: transparent;
+//     z-index: 2;
+
+//     // @media screen and (max-width: 1280px) {
+//     //     position: relative;
+//     //     margin: 0;
+//     //     padding: 15px;
+//     //     position: sticky;
+//     //     top: 0;
+//     //     background: $white-color;
+//     // }
+
+//     &__container {
+//         display: flex;
+//         align-items: center;
+//         justify-content: space-between;
+
+//         @media screen and (max-width: 1280px) {
+//             margin: 0 auto;
+//         }
+//     }
+
+//     &__logo {
+
+//         svg {
+
+//             @media screen and (max-width: 1280px) {
+//                 max-width: 106px;
+//             }
+//         }
+//     }
+// }
+
+// .main-menu {
+//     width: 100%;
+//     max-width: 655px;
+//     display: flex;
+//     align-items: center;
+//     gap: 40px;
+//     font-family: 'GT Eesti Pro';
+//     font-weight: 500;
+//     font-size: 20px;
+//     line-height: 26px;
+
+//     &__link {
+//         color: $Gray-100;
+//     }
+
+//     @media screen and (max-width: 1280px) {
+//         display: none;
+//     }
+// }
+
+// .registration-menu {
+//     display: flex;
+//     align-items: center;
+//     gap: 45px;
+
+//     &__left {
+//         display: flex;
+//         align-items: center;
+//         gap: 40px;
+//     }
+
+//     &__left-link {
+//         font-family: 'GT Eesti Pro';
+//         font-weight: 500;
+//         font-size: 16px;
+//         line-height: 26px;
+//         color: $blue-deep;
+
+//         &:hover {
+//             transition: all .4s;
+//             color: $hover-color-teal;
+
+//             svg {
+//                 path {
+//                     transition: all .4s;
+//                     stroke: $hover-color-teal;;
+//                 }
+//             }
+//         }
+//     }
+
+//     &__left-sign {
+//         display: flex;
+//         align-items: center;
+//         gap: 15px;
+//     }
+
+//     @media screen and (max-width: 1280px) {
+//         display: none;
+//     }
+    
+
+//     &__right-button {
+//         padding: 13px 40px;
+//         font-family: 'DM Sans';
+//         font-weight: 700;
+//         font-size: 16px;
+//         line-height: 20px;
+//         border-radius: 66px;
+//         color: $white-color;
+//         background: $main-color-teal;
+
+//         &:hover {
+//             transition: all .4s;
+//             background-color: $hover-color-teal;
+//         }
+
+//         &:active {
+//             vertical-align: middle;
+//             color: $pressed-color-teal;
+//         }
+    
+//         &:focus {
+//             vertical-align: middle;
+//             color: $disabled-color-teal;
+//         }
+
+//         @media screen and (max-width: 1280px) {
+//             display: none;
+//         }
+//     }
+// }
+
+// .mobile-menu {
+//     height: 100vh;
+//     display: none;
+//     z-index: 999999;
+//     flex-direction: column;
+//     position: fixed;
+//     top: 76px;
+//     right: 0;
+//     left: 0;
+//     padding-left: 20px;
+//     font-size: 24px;
+//     line-height: 28px;
+//     gap: 40px;
+//     z-index: 3;
+//     background-color: $white-color;
+
+//     &__link,
+//     &__menu,
+//     &__reference {
+//         font-family: 'GT Eesti Pro';
+//         font-weight: 500;
+//         font-size: 20px;
+//         line-height: 26px;
+//         color: $Gray-100;
+//     }
+
+//     &__menu,
+//     &__reference {
+//         display: flex;
+//         justify-content: space-between;
+//         padding-right: 15px;
+        
+//     }
+
+//     &__link-sign {
+//         display: flex;
+//         align-items: center;
+//         gap: 22px;
+//     }
+
+//     &__vector {
+//         margin-right: 20px;
+//         border: 1px solid $Gray-20;
+//     }
+
+//     &__registration {
+//         padding-top: 30px;
+//         display: flex;
+//         justify-content: space-between;
+//         align-items: center;
+//         gap: 65px;
+
+//         @media screen and (max-width: 410px) {
+//             flex-direction: column;
+//         }
+//     }
+
+//     &__button {
+//         margin-right: 15px;
+//         padding: 13px 40px;
+//         font-family: 'DM Sans';
+//         font-weight: 700;
+//         font-size: 16px;
+//         line-height: 20px;
+//         border-radius: 66px;
+//         color: $white-color;
+//         background: $main-color-teal;
+
+//         @media screen and (max-width: 220px) {
+//             padding: 7px 20px;
+//             font-size: 8px;
+//             line-height: 10px;
+//         }
+        
+//     }
+// }
+
+// .burger {
+//     position: relative;
+//     z-index: 9999;
+//     display: none;
+//     width: 24px;
+//     height: 24px;
+//     margin-left: 20px;
+//     background-image: url("../../img/header/burger.svg");
+//     background-size: contain;
+//     background-repeat: no-repeat;
+//     overflow: hidden;
+
+//     &-active {
+//         background-image: url("../../img/header/close.svg");
+//     }
+    
+//     @media (max-width: 1280px) {
+//         display: block;
+//     }
+// }
