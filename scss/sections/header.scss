@@ -1,6 +1,65 @@
 @import "../base/fonts";
 @import "../base/variables";
 
+.header {
+    width: 100%;
+    padding-top: 30px;
+
+    &__container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+.main-menu {
+    width: 100%;
+    max-width: 980px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    font-family: 'Raleway';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    
+    &__link {
+        color: $green-color;
+    }
+}
+
+.registration-menu {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+
+    &__button {
+        padding: 10px 15px;
+        border-radius: 6px;
+        font-family: 'Raleway';
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 20px;
+        background-color: $button-color;
+        color: $white-color;
+    }
+
+    &__login {
+        font-family: 'Raleway';
+        font-size: 13px;
+        font-weight: 700;
+        line-height: 20px;
+        color: $green-color;
+    }
+
+    &__language-select {
+        border: none;
+    }
+}
+
+
+
 // .header {
 //     width: 100%;
 //     position: absolute;

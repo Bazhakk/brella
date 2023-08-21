@@ -1,3 +1,78 @@
+@font-face {
+  font-family: "Raleway";
+  src: url("../../fonts/Raleway-Regular.eot") format("embedded-opentype"), url("../../fonts/Raleway-Regular.svg") format("svg"), url("../../fonts/Raleway-Regular.woff") format("woff"), url("../../fonts/Raleway-Regular.woff2"), url("../../fonts/Raleway-Regular.ttf") format("ttf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Raleway";
+  src: url("../../fonts/Raleway-Bold.eot") format("embedded-opentype"), url("../../fonts/Raleway-Bold.svg") format("svg"), url("../../fonts/Raleway-Bold.woff") format("woff"), url("../../fonts/Raleway-Bold.woff2"), url("../../fonts/Raleway-Bold.ttf") format("ttf");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Raleway";
+  src: url("../../fonts/Raleway-Black.eot") format("embedded-opentype"), url("../../fonts/Raleway-Black.svg") format("svg"), url("../../fonts/Raleway-Black.woff") format("woff"), url("../../fonts/Raleway-Black.woff2"), url("../../fonts/Raleway-Black.ttf") format("ttf");
+  font-weight: 900;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../../fonts/Roboto-Regular.eot") format("embedded-opentype"), url("../../fonts/Roboto-Regular.svg") format("svg"), url("../../fonts/Roboto-Regular.woff") format("woff"), url("../../fonts/Roboto-Regular.woff2"), url("../../fonts/Roboto-Regular.ttf") format("ttf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../../fonts/Roboto-Bold.eot") format("embedded-opentype"), url("../../fonts/Roboto-Bold.svg") format("svg"), url("../../fonts/Roboto-Bold.woff") format("woff"), url("../../fonts/Roboto-Bold.woff2"), url("../../fonts/Roboto-Bold.ttf") format("ttf");
+  font-weight: 700;
+}
+.header {
+  width: 100%;
+  padding-top: 30px;
+}
+.header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
+.main-menu {
+  width: 100%;
+  max-width: 980px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  font-family: "Raleway";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+}
+.main-menu__link {
+  color: #214E41;
+}
+
+.registration-menu {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.registration-menu__button {
+  padding: 10px 15px;
+  border-radius: 6px;
+  font-family: "Raleway";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  background-color: #43806C;
+  color: #FFF;
+}
+.registration-menu__login {
+  font-family: "Raleway";
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 20px;
+  color: #214E41;
+}
+.registration-menu__language-select {
+  border: none;
+}
 
 /*# sourceMappingURL=header.css.map */
